@@ -30,8 +30,7 @@ def regist(reg):
                       menu.add(btn1)
                       menu.add(btn2,btn3)
                       menu.add(btn4)
-                      bot.send_message(reg.message.chat.id,'ShopSo2\n\
-                      ознакомьтесь с каталогом',reply_markup=menu,parse_mode='Markdown')
+                      bot.send_photo(reg.message.chat.id,'https://sun9-72.userapi.com/04S1m9aPRSBeH_3qcmLhW0q1rDONoImSwS29mw/WTDFHpFFUUw.jpg',reply_markup=menu,parse_mode='Markdown')
                  if reg.data=='tovar':
                      tovar=types.InlineKeyboardMarkup()
                      btn1=types.InlineKeyboardButton(text='💠КЕШ 0.26.1',callback_data='cash')
